@@ -16,7 +16,7 @@ export default {
 			todos: [],
 			title: '',
 			status: 'all',
-			errorMessage: '',
+			errorMessage: 'Test error',
 		};
 	},
 	computed: {
@@ -146,7 +146,6 @@ export default {
 			class="is-warning"
 			:active="errorMessage !== ''"
 			@hide="errorMessage = ''"
-			ref="errorMessage"
 		>
 			<template #default="{x}">
 				<p>{{ errorMessage }}</p>

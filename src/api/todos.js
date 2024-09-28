@@ -1,7 +1,7 @@
 import { client } from '@/httpClient.js';
 
 export const getTodos = () => {
-	return client.get('/todos?userId=6342')
+	return client.get('/todos?userId=2');
 }
 
 export const createTodo = (title) => {

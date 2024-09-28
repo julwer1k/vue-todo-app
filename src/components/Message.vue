@@ -25,11 +25,13 @@ export default {
 		</div>
 		
 		<div class="message-body">
-			<slot :x="1">Message</slot>
+			<slot :x="42">Message</slot>
 		</div>
 	</article>
 </template>
 
-<style scoped>
-
+<style>
+.message--hidden {
+	display: none;
+}
 </style>
