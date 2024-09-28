@@ -149,7 +149,7 @@ export default {
 			ref="errorMessage"
 		>
 			<template #default="{x}">
-				<p>{{ errorMessage }} {{ x }}</p>
+				<p>{{ errorMessage }}</p>
 			</template>
 			
 			<template #header>
